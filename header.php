@@ -26,7 +26,7 @@
                             <div class="col-xxl-3 col-xl-3 col-lg-2 col-md-4 col-sm-5 col-8">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="assets/img/logo/logo-green.svg" alt="logo">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo-green.svg" alt="logo">
                                     </a>
                                 </div>
                             </div>
