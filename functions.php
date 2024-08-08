@@ -58,6 +58,10 @@ function theme_setup()
 }
 add_action('after_setup_theme', 'theme_setup');
 
+// Kirki class condition
+if (class_exists('Kirki')) {
+    include_once("include/pharry-kirki.php");
+}
 
 // pHarry Header
 function pHarry_header()

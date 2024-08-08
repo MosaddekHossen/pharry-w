@@ -61,7 +61,7 @@ function harry_fonts_url()
     Translators: If there are characters in your language that are not supported
     by the chosen font(s), translate this to 'off'. Do not translate into your language.
      */
-    if ('off' !== _x('on', 'Google font: on or off', 'harry')) {
+    if ('off' !== _x('on', 'Google font: on or off', 'pHarry')) {
         $font_url = 'https://fonts.googleapis.com/css2?' . urlencode('family=Inter:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap');
     }
     return $font_url;
