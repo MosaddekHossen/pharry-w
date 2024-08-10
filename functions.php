@@ -55,6 +55,14 @@ function theme_setup()
         'flex-width'  => true,
         'header-text' => array('site-title', 'site-description'),
     ));
+
+    register_nav_menus(
+        array(
+            'main-menu' => __('Main Menu', 'harry'),
+            'side-menu' => __('Side Menu', 'harry'),
+            'footer-menu' => __('Footer Menu', 'harry'),
+        )
+    );
 }
 add_action('after_setup_theme', 'theme_setup');
 
